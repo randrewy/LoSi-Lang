@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Losi", "src\Losi\Losi.csproj", "{DAAD419B-A4A5-4285-BC48-747DF2DFB8CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6C659AFE-95E3-4FF5-B0FC-5BD5EA4FF27E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FDF0DABC-0115-4909-8B9D-BFB6A63E4997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LosiEvaluatorTests", "test\LosiEvaluatorTests\LosiEvaluatorTests.csproj", "{55615331-F1A4-4764-99BA-A141C9E9B8E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution_items", "solution_items", "{04B9FBF1-4536-4307-A981-F26A929684D5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		README.MD = README.MD
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAAD419B-A4A5-4285-BC48-747DF2DFB8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAD419B-A4A5-4285-BC48-747DF2DFB8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAD419B-A4A5-4285-BC48-747DF2DFB8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAD419B-A4A5-4285-BC48-747DF2DFB8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55615331-F1A4-4764-99BA-A141C9E9B8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55615331-F1A4-4764-99BA-A141C9E9B8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55615331-F1A4-4764-99BA-A141C9E9B8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55615331-F1A4-4764-99BA-A141C9E9B8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAAD419B-A4A5-4285-BC48-747DF2DFB8CB} = {FDF0DABC-0115-4909-8B9D-BFB6A63E4997}
+		{55615331-F1A4-4764-99BA-A141C9E9B8E0} = {6C659AFE-95E3-4FF5-B0FC-5BD5EA4FF27E}
+	EndGlobalSection
+EndGlobal

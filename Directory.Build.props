@@ -1,0 +1,12 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>12</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+
+        <BaseIntermediateOutputPath>$(SolutionDir)\.build\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+        <OutputPath>$(SolutionDir)\.build\bin\$(MSBuildProjectName)\$(Configuration)</OutputPath>
+        <PublishDir>$(SolutionDir)\.build\publish</PublishDir>
+    </PropertyGroup>
+</Project>

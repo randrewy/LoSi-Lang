@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+      <PackageReference Include="Antlr4.CodeGenerator" Version="4.6.6">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Antlr4.Runtime" Version="4.6.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="grammar\ExpressionGrammar.g4" />
+    </ItemGroup>
+
+<!--    CLSCompliant in generated code-->
+    <PropertyGroup>
+        <NoWarn>CS3021</NoWarn> 
+    </PropertyGroup>
+</Project>
